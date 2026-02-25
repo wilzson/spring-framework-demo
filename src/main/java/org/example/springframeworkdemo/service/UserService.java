@@ -1,7 +1,7 @@
 package org.example.springframeworkdemo.service;
 
-import lombok.Data;
 import org.example.springframeworkdemo.spring.Component;
+import org.example.springframeworkdemo.spring.Scope;
 
 /**
  * 模拟实体类

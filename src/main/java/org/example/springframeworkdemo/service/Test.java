@@ -7,6 +7,8 @@ public class Test {
 
         ApplicationContext context = new ApplicationContext(AppConfig.class);
 
-        context.getBean("userService");
+        OrderService orderService = (OrderService) context.getBean("orderService");
+
+        orderService.test01();
     }
 }
